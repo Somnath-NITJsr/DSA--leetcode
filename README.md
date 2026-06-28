@@ -1,4 +1,4 @@
-# DSA--leetcode
+# DSA-leetcode
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
