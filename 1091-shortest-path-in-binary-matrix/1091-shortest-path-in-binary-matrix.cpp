@@ -2,53 +2,59 @@ class Solution {
 public:
     vector<vector<int>> directions {{1, 1}, {0, 1}, {1, 0}, {-1, 0}, {0, -1}, {-1, -1}, {1, -1}, {-1, 1}};
 
+    typedef pair<int, pair<int, int> > P;
+
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
-
 
         if(m == 0 || n == 0 || grid[0][0] != 0) {
             return -1;
         }
 
         auto isSafe = [&](int x, int y) {
-            return x >= 0 && x < m && y >= 0 && y < n;
+            return x >=0 && x < m && y >=0 && y < n;
         };
 
-        queue<pair<int, int>> q;
-        q.push({0, 0});
-        grid[0][0] = 1;
+        // define the result vector , as 2d
+        vector<vector<int>> result(m, vector<int>(n, 1e9));
 
-        int level = 0;
+        // define the priority queue
+        priority_queue<P, vector<P>, greater<P> > pq;
 
-        while(!q.empty()) {
+        // pq stores {distance, {x, y}}
+        pq.push({0, {0, 0}});
 
-            int N = q.size();
+        result[0][0] = 0;
+        grid[0][0] = 1; // mark as visited
 
-            while(N--) {
+        while(!pq.empty()) {
+            
+            auto it = pq.top();
+            int dist = it.first;
+            int x = it.second.first;
+            int y = it.second.second;
 
-                auto curr = q.front();
-                q.pop();
+            pq.pop();
 
-                int x = curr.first;
-                int y = curr.second;
+            for(auto& dir: directions) {
+                int x_ = x + dir[0];
+                int y_ = y + dir[1];
 
-                if(x == m-1 && y == n-1) {
-                    return level + 1;
-                }
+                int dist_ = 1;
 
-                for(auto& dir : directions) {
-                    int x_ = x + dir[0];
-                    int y_ = y + dir[1];
-
-                    if(isSafe(x_, y_) && grid[x_][y_] == 0) {
-                        q.push({x_, y_});
-                        grid[x_][y_] = 1;
-                    }
+                if(isSafe(x_, y_) && grid[x_][y_] == 0 && dist + dist_ < result[x_][y_]) {
+                    pq.push({dist + dist_, {x_, y_}});
+                    result[x_][y_] = dist + dist_;
                 }
             }
-            level++;
         }
-        return -1;
+
+        if(result[m-1][n-1] == 1e9) {
+            return -1;
+        }
+
+        return result[m-1][n-1] + 1;
+        
     }
 };
