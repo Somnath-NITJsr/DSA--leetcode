@@ -19,6 +19,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0151-reverse-words-in-a-string](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Somnath-NITJsr/DSA--leetcode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 ## Binary Search
@@ -74,5 +75,6 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0345-reverse-vowels-of-a-string](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0345-reverse-vowels-of-a-string/) | Easy |
 <!---LeetCode Topics End-->
