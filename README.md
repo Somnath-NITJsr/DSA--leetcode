@@ -14,6 +14,7 @@
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1498-number-of-subsequences-that-satisfy-the-given-sum-condition/) | Medium |
 | [1552-magnetic-force-between-two-balls](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1552-magnetic-force-between-two-balls/) | Medium |
+| [1584-min-cost-to-connect-all-points](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1877-minimize-maximum-pair-sum-in-array/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Somnath-NITJsr/DSA--leetcode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -62,6 +63,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/0743-network-delay-time/) | Medium |
+| [1584-min-cost-to-connect-all-points](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -79,6 +81,7 @@
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -101,4 +104,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2963-count-the-number-of-good-partitions](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/2963-count-the-number-of-good-partitions/) | Hard |
+## Minimum Spanning Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/Somnath-NITJsr/DSA-leetcode/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 <!---LeetCode Topics End-->
